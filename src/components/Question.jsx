@@ -4,7 +4,7 @@ import "../css/Question.css";
 
 class Question extends Component {
   render() {
-    return <div class="Question">{this.props.text}</div>;
+    return <div className="Question">{this.props.text}</div>;
   }
 }
 

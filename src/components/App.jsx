@@ -25,7 +25,6 @@ class App extends Component {
     firebaseDatabase.ref("/questions").on("value", snapshot => {
       let questions = snapshot.val();
       let randomQuestion = getRandomQuestion(questions);
-      console.log(randomQuestion);
       this.setState({
         questions: questions,
         currentQuestion: randomQuestion

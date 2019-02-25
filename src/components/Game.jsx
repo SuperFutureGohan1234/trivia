@@ -6,13 +6,16 @@ import "../css/Game.css";
 // import components
 
 class Game extends Component {
-  render() {
-    return (
-      <div className="Game">
-        <Answers answerList={this.props.currentQuestion.choices} />
-        <Question text={this.props.currentQuestion.question_text} />
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div className="Game">
+				<Question text={this.props.currentQuestion.question_text} />
+				<Answers
+					correctAnswer={this.props.currentQuestion.correct_choice_index}
+					answerList={this.props.currentQuestion.choices}
+				/>
+			</div>
+		);
+	}
 }
 export default Game;
