@@ -2,13 +2,13 @@
   "name": "studio2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://scriptedcurriculum.github.io/studio2",
+  "homepage": "https://SuperFutureGohan1234.github.io/trivia",
   "dependencies": {
     "firebase": "^5.5.7",
     "lodash": "^4.17.11",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-scripts": "^2.1.1"
+    "react-scripts": "^2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
