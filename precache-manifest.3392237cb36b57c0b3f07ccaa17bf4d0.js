@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/trivia/static/js/runtime~main.a8a14f72.js"
   },
   {
-    "revision": "aea134cb15cc4a452655",
-    "url": "/trivia/static/js/main.82c45386.chunk.js"
+    "revision": "ca9505eaeb828262ca8a",
+    "url": "/trivia/static/js/main.96b55b5a.chunk.js"
   },
   {
     "revision": "39525aff312588e0608b",
     "url": "/trivia/static/js/2.0f1a47a5.chunk.js"
   },
   {
-    "revision": "aea134cb15cc4a452655",
+    "revision": "ca9505eaeb828262ca8a",
     "url": "/trivia/static/css/main.08767158.chunk.css"
   },
   {
-    "revision": "2835b43fb8b5004f94a8dc8affcf07a7",
+    "revision": "c4581581b54370680e72bc0fd6b39363",
     "url": "/trivia/index.html"
   }
 ];
