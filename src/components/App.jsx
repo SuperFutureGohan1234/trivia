@@ -21,7 +21,10 @@ class App extends Component {
         correct_choice_index: null
       }
     };
+    this.resetQuestion();
+  }
 
+  resetQuestion() {
     firebaseDatabase.ref("/questions").on("value", snapshot => {
       let questions = snapshot.val();
       let randomQuestion = getRandomQuestion(questions);
@@ -36,6 +39,7 @@ class App extends Component {
     return (
       <div className="app">
         <Title />
+        <button onClick={() => this.resetQuestion()}>reset</button>
         <Game currentQuestion={this.state.currentQuestion} />
       </div>
     );
